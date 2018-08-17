@@ -96,7 +96,7 @@ public class Crawler {
 
     public void printResult()
     {
-        System.out.println("NOTE: successful request is defined as with response HTTP code greater than 400.");
+        System.out.println("NOTE: successful request is defined as with response HTTP code less than 400.");
         System.out.println(" ===== Printing result: ======");
         System.out.println("Message: " + this.message);
         System.out.println("Total number of requests: " + this.result.totalNumOfRequests);
